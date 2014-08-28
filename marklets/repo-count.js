@@ -1,4 +1,4 @@
-(function() {
+javascript:(function() {
     if ($('.more-repos-link').length != 0) {
         $.get('/dashboard/ajax_your_repos', function(response) {
             $('#repo_listing').html(response);
